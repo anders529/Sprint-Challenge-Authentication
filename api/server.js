@@ -6,7 +6,6 @@ const authRouter = require("../auth/auth-router.js");
 const jokesRouter = require("../jokes/jokes-router.js");
 const usersRouter = require("../users/users-router.js");
 const server = express();
-
 server.use(helmet());
 server.use(cors());
 server.use(express.json());
